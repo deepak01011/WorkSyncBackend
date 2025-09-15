@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WorkSync.Domain\WorkSync.Domain.csproj" />
+    <ProjectReference Include="..\WorkSync.Infra.Data\WorkSync.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\WorkSync.Application\WorkSync.Application.csproj" />
+    <ProjectReference Include="..\WorkSync.Domain\WorkSync.Domain.csproj" />
+    <ProjectReference Include="..\WorkSync.Infra.CrossCutting.Identity\WorkSync.Infra.CrossCutting.Identity.csproj" />
+    <ProjectReference Include="..\WorkSync.Infra.Data\WorkSync.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
